@@ -1,0 +1,95 @@
+/* Outer wrapper for skill section */
+.skills-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #000;
+}
+
+/* Card container */
+.skill-card-container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  background-color: #111;
+  flex-wrap: wrap;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Individual card */
+.card {
+  background-color: #111;
+  padding: 25px;
+  border-radius: 15px;
+  width: 300px;
+  color: white;
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.35s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* Headings */
+.card h2 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Skill text colors */
+.frontend-skills,
+.backend-skills {
+  color: hsl(0, 0%, 80%);
+  font-size: 0.95rem;
+}
+
+/* Frontend styles */
+.frontend-heading {
+  color: #4f8dfd;
+}
+.frontend-card {
+  border-color: rgba(79, 141, 253, 0.3);
+}
+.frontend-card:hover {
+  background: linear-gradient(135deg, rgba(79, 141, 253, 0.1), rgba(79, 141, 253, 0.15));
+  border-color: #4f8dfd;
+}
+
+/* Backend styles */
+.backend-heading {
+  color: #37e2d5;
+}
+.backend-card {
+  border-color: rgba(55, 226, 213, 0.3);
+}
+.backend-card:hover {
+  background: linear-gradient(135deg, rgba(55, 226, 213, 0.1), rgba(55, 226, 213, 0.15));
+  border-color: #37e2d5;
+}
+
+/* Bullet list */
+.card ul {
+  padding-left: 20px;
+}
+.card li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  position: relative;
+}
+
+/* Custom bullet style */
+.card li::before {
+  content: "•";
+  position: absolute;
+  left: -15px;
+  color: currentColor;
+  font-size: 1.2rem;
+}

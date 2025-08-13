@@ -1,0 +1,94 @@
+.contact-section {
+  width: 100%;
+  background-color: #000; /* Full black background */
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.contact-subtext {
+  font-size: 1.15rem;
+  color: #d1d1d1;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact-btn {
+  background-color: #24292f;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #24292f;
+}
+
+.github-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #24292f;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.github-btn:hover {
+  background-color: #1b1f23;
+}
+
+.contact-btn, .resume-btn, .github-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Email button */
+.contact-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255, 100, 0, 0.5);
+}
+
+/* Resume button */
+.resume-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #333, #000);
+  box-shadow: 0 4px 15px rgba(0, 180, 255, 0.5);
+}
+
+/* GitHub button */
+.github-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #333, #000);
+  box-shadow: 0 4px 15px rgba(255, 100, 0, 0.5);
+}
