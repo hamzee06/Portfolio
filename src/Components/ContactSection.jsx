@@ -10,7 +10,7 @@ const ContactSection = () => {
   return (
     <section className="contact-section">
       <div className="contact-container">
-        <h2 className="contact-heading">Let’s Build Something Extraordinary</h2>
+        <h2 className="contact-heading">Let's Build Something Extraordinary</h2>
         <p className="contact-subtext">
           I’m ready to collaborate on exciting projects and transform innovative
           ideas into impactful digital experiences.
