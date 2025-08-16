@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
 import "./ContactSection.css";
 
 const ContactSection = () => {
@@ -12,7 +12,7 @@ const ContactSection = () => {
       <div className="contact-container">
         <h2 className="contact-heading">Let's Build Something Extraordinary</h2>
         <p className="contact-subtext">
-          I’m ready to collaborate on exciting projects and transform innovative
+          I'm ready to collaborate on exciting projects and transform innovative
           ideas into impactful digital experiences.
         </p>
         <div className="contact-buttons">
@@ -33,7 +33,7 @@ const ContactSection = () => {
             rel="noopener noreferrer"
             className="github-btn"
           >
-            <FaGithub size={20} /> GitHub
+           <i class="fa-brands fa-github"></i> GitHub
           </a>
         </div>
       </div>
