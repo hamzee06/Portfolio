@@ -1,7 +1,7 @@
 .contact-section {
-  width: 100%;
+  width: 100vw;
   background-color: #000; /* Full black background */
-  padding: 4rem 2rem;
+  /* padding: 4rem 2rem; */
   display: flex;
   justify-content: center;
 }
