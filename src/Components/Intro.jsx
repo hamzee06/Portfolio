@@ -24,6 +24,7 @@ const Intro = () => {
         <span className="tag html-css">HTML & CSS</span>
         <span className="tag js-react">JavaScript & React & Angular</span>
         <span className="tag Node">Node.js</span>
+        <span className="tag C">C sharp</span>
       </div>
     </div>
   );

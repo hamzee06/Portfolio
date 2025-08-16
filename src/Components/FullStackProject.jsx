@@ -90,7 +90,7 @@ const FullStackProject = () => {
             <div className="architect-box">
               <h2 className="backend-heading">Backend Architect</h2>
               <ul>
-                <li>Node.js with REST API endpoints</li>
+                <li>c sharp (ASP.net)</li>
                 <li>MySQL for structured data storage</li>
                 <li>Handles user uploads and performance records</li>
               </ul>
@@ -98,7 +98,7 @@ const FullStackProject = () => {
           </div>
 
           <a
-            href="https://your-pmp-link.com"
+            href="http://localhost:4200/goals/:id"
             target="_blank"
             rel="noopener noreferrer"
             className="website-link"
@@ -114,7 +114,7 @@ const FullStackProject = () => {
             <div className="diagram">
               <div className="box frontend-box">Frontend (Angular)</div>
               <div className="arrow">⬇</div>
-              <div className="box backend-box">Backend (Node.js)</div>
+              <div className="box backend-box">Backend (C sharp)</div>
               <div className="arrow">⬇</div>
               <div className="box database-box">Database (MySQL)</div>
             </div>
